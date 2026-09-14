@@ -74,10 +74,6 @@ footer {
   z-index: 999;
 }
 
-/* .container-navbar::before {
-
-} */
-
 .list-navbar ul,
 .nav-login {
   display: flex;
@@ -93,12 +89,12 @@ footer {
 }
 
 .item-navbar {
-  transition: 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .item-navbar:hover {
   color: rgb(6, 6, 6);
-  transition: 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 .item-register:hover {
@@ -161,8 +157,9 @@ footer {
   background-color: rgba(249, 244, 244, 0.6);
   box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
   border-radius: 8px;
-  padding: 1rem;
+  padding-bottom: 1rem;
   transition: 1.1s ease;
+  overflow: hidden;
 }
 
 .tarjeta-producto:hover {
@@ -175,7 +172,7 @@ footer {
   width: 100%;
   height: 200px;
   background-color: #ccc;
-  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+  object-fit: cover;
 }
 
 .tarjeta-descripcion {
